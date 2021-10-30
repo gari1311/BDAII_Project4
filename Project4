@@ -119,7 +119,7 @@ for i in range(1, 11):
     kmeans.fit(X)
     wcss.append(kmeans.inertia_)
 
-# Step 7 : Plotting Number of Clusters Vs wcss - The Elbow Method
+# Plotting Number of Clusters Vs wcss - The Elbow Method
 plt.plot(range(1, 11), wcss)
 plt.title('The Elbow Method')
 plt.xlabel('Number of clusters')
